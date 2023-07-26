@@ -1,33 +1,38 @@
-![image](https://github.com/Nievz/Portofolio_Visualizer/assets/135930235/ceb70b7b-531d-46fd-8244-36a84234ec16)
+## Visual Data Analysis Of Fraudulent Transactions
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="https://media.istockphoto.com/id/911660906/vector/computer-hacker-with-laptop-icon.jpg?s=612x612&w=0&k=20&c=rmx25IUnM2fHP4lXG96PNeZ_YQ1kQUTTWfGU4EE5iqQ=" alt="Logo" width="200" height="200">
+  </a>
+
+<h3 align="center">Visual Data Analysis Of Fraudulent Transactions</h3>
+
+  <p align="center">
+    Fraud is prevalent today, regardless of the size of your business. Even though there are emerging technologies that use machine learning and artificial intelligence to detect fraud, many cases of fraud detection still require robust data analytics to identify abnormal charges.
+
+This project will analyze historical credit card transactions and consumption patterns using SQL Database analysis in order to identify possible fraudulent transactions.
+  </p>
+</div>
+<img src="https://www.ccu.org/assets/files/O9qPjL5z/Fraud_Page_Web.jpg">
+
+# Data Modeling
+We created an entity relationship diagram (ERD) by analyzing CSV data to determine how many tables and what types of relationships needed to be defined between the tables.
+
+# Data Engineering
+We developed a database schema for each of your tables and relationships using our database model as a guide. 
+
+# Data Analysis
+Draft
+
+## Contributing
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+## Acknowledgments
+
+* []()
+* []()
+* []()
+* [https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md]()
 
 
-# Portofolio_Visualizer
-This tool, examines and visualizes the major metrics of portfolios, such as volatility, returns, risk, and Sharpe ratios, in order to determine which portfolio is performing the best across all of the various areas. This tool is analyzing the historical daily returns of a number of different portfolios, some of which come from the algorithmic portfolios of a company, some of which represent the portfolios of well-known "whale" investors like Warren Buffett, and some of which come from large hedge funds and mutual funds. This analysis is used by the tool to compare its performance against other portfolios as well as the S&P 500 Index.
-
-# Prepare the Data
-
-To begin, we prepared several CSV files for analysis by reading them in and cleaning them. The CSV files have information regarding the returns of whale portfolios, the returns of algorithmic trading portfolios, and the historical prices of the S&P 500.
-
-# Perform Quantitative Analysis
-
-We perform an analysis on the data to see if any of the portfolios have a better performance than the stock market (more specifically, the S&P 500). Following the completion of an analysis as well as a risk assessment, we calculated rolling statistics and Sharpe ratios.
-
-# Create a Custom Portfolio
-
-We chose the stocks for our own portfolio, which consists of Adobe, Amazon, and Meta, during the same timeframe as the selection of stocks for the other portfolios so that we can compare the performance of our portfolio to that of the other portfolios.
-
-# Citations
-
-Quantitative Stock Price Analysis with Python, pandas, NumPy matplotlib & SciPy; https://www.youtube.com/watch?v=PkzVU7Klic0
-
-Python rolling Sharpe ratio with Pandas or NumPy: https://stackoverflow.com/questions/49091044/python-rolling-sharpe-ratio-with-pandas-or-numpy
-
-Portfolio Data Whale, Algo, and sp500: Source UC Berkeley Extension
-
-Portfolio Data Adobe: Source Google Finance 
-
-Portfolio Data Amazon: Source Google Finance
-
-Portfolio Data Meta: Source Google Finance
-
-Image Source: https://images.pexels.com
